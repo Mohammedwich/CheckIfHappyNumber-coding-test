@@ -49,6 +49,9 @@ int main()
 {
 
 	string line;
+
+	cout << "Input a number to find out if it is a happy number(1) or not a happy number(0) : " << endl;
+
 	while (getline(cin, line))
 	{
 		int input = stoi(line);
